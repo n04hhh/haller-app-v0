@@ -596,7 +596,7 @@ if photographic_index is not None:
         }
     )
     if w <= width:
-        return image.copy(), 1.0
+    return image.copy(), 1.0
     scale = width / w
     return image.resize((width, int(h * scale))), scale
 
