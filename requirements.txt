@@ -1,4 +1,3 @@
-streamlit==1.32.2
-numpy
+streamlit
 pillow
-streamlit-drawable-canvas==0.9.3
+streamlit-image-coordinates
